@@ -1,0 +1,30 @@
+#button-action {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#button-action:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+#button-action:active {
+  background-color: #004080;
+  transform: scale(0.95);
+}
+
+.center-container {
+  display: flex;
+  justify-content: center; /* vízszintes középre igazítás */
+  align-items: center; /* függőleges középre igazítás */
+}
